@@ -5,14 +5,149 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Scss-bem-starter</title>
+    <title>amazon-project</title>
 </head>
 <body>
-    <!--HEAD-->
-    <header></header>
-    <!--MAIN-->
-    <main></main>
+
+   <!-- HEADER -->
+   <header class="header">
+
+    <div class="container">
+        <div class="header__container">
+            <a href="index.html" class="header__logo-link">
+                <img class="header__logo-img" src="./img/logo.svg" alt="logo" width="106" height="32">
+            </a>
+            <form class="form">
+                <select class="form__select">
+                    <option class="form__option" value="all">All</option>
+                </select>
+                <input class="form__input" type="text"
+                    placeholder="Search Mobiles, TV, Laptops,Tablets, Beauty & Personal Care etc">
+                <button class="form__input-btn"></button>
+            </form>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a class="header__link" href="#">
+                            <img class="header__link-img" src="./img/heart-icon.svg" alt="heart" width="20"
+                                height="18">
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">
+                            <img class="header__link-img" src="./img/shopping-bag.svg" alt="shopping" width="24"
+                                height="24">
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">
+                            <img class="header__link-img" src="./img/carbon_location.svg" alt="location-icon"
+                                width="20" height="20">
+                            Pakistan
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="header__login" href="#">Login</a>
+        </div>
+    </div>
+</header>
+   
+
+ 
+ <main class="main">
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero__button-wrapper">
+                <button class="hero__slide-left"></button>
+                <button class="hero__slider-right"></button>
+            </div>
+            <div class="my-slider">
+                <div>
+                    <div class="hero__box">
+                        <div class="hero__content">
+                            <p class="hero__header-desc">SONY WH-H910N</p>
+                            <h1 class="hero__header">Best in Hi-Res and Noise Cancelling</h1>
+                            <p class="hero__body-desc">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc, est enim mauris dolor
+                                ultrices mi ipsum risus. Adipiscing consequat, bibendum fringilla dolor ornare.
+                                Turpis
+                                sit
+                                egestas condimentum tincidunt lobortis donec massa ultricies. Urna, cursus eleifend
+                                neque ut
+                                nibh est.
+                            </p>
+                            <div class="hero__body-box">
+                                <a class="hero__link-buy" href="#">Buy now for $129</a>
+                                <a class="hero__link-more" href="#">Learn more</a>
+                            </div>
+                        </div>
+                        <div class="hero__content-right">
+                            <img class="hero__img" src="./img/naushnik-removebg-preview.png" alt="naush" width="417"
+                                height="417">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div>
+                    <div class="hero__box">
+                        <div class="hero__content">
+                            <p class="hero__header-desc">SONY WH-H910N</p>
+                            <h1 class="hero__header">Best in Hi-Res and Noise Cancelling</h1>
+                            <p class="hero__body-desc">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc, est enim mauris dolor
+                                ultrices mi ipsum risus. Adipiscing consequat, bibendum fringilla dolor ornare.
+                                Turpis
+                                sit
+                                egestas condimentum tincidunt lobortis donec massa ultricies. Urna, cursus eleifend
+                                neque ut
+                                nibh est.
+                            </p>
+                            <div class="hero__body-box">
+                                <a class="hero__link-buy" href="#">Buy now for $129</a>
+                                <a class="hero__link-more" href="#">Learn more</a>
+                            </div>
+                        </div>
+                        <div class="hero__content-right">
+                            <img class="hero__img" src="./img/naushnik-removebg-preview.png" alt="naush" width="417"
+                                height="417">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="hero__box">
+                        <div class="hero__content">
+                            <p class="hero__header-desc">SONY WH-H910N</p>
+                            <h1 class="hero__header">Best in Hi-Res and Noise Cancelling</h1>
+                            <p class="hero__body-desc">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc, est enim mauris dolor
+                                ultrices mi ipsum risus. Adipiscing consequat, bibendum fringilla dolor ornare.
+                                Turpis
+                                sit
+                                egestas condimentum tincidunt lobortis donec massa ultricies. Urna, cursus eleifend
+                                neque ut
+                                nibh est.
+                            </p>
+                            <div class="hero__body-box">
+                                <a class="hero__link-buy" href="#">Buy now for $129</a>
+                                <a class="hero__link-more" href="#">Learn more</a>
+                            </div>
+                        </div>
+                        <div class="hero__content-right">
+                            <img class="hero__img" src="./img/naushnik-removebg-preview.png" alt="naush" width="417"
+                                height="417">
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+</main>
     <!--FOOTER-->
     <footer></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="./js/catalog.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>

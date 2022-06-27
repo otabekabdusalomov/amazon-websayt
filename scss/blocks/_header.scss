@@ -1,1 +1,109 @@
-//BU YERDA SAYTIMIZNING HEADER QISMIGA ISHLOV BERILADI
+.header {
+    position: relative;
+
+    .header__container {
+         display: flex;
+         align-items: center;
+         padding: 35px 0px;
+         margin: 0;
+         // margin-left: 98px;
+    }
+
+    .form {
+         display: flex;
+         position: relative;
+         padding: 10px 16px 10px 13px;
+         width: 600px;
+         height: 48px;
+         margin-left: 48px;
+         background: rgba(242, 242, 242, 0.48);
+    }
+
+    .form__select {
+         padding-right: 14px;
+         border: none;
+         background-color: transparent;
+    }
+
+    .form__input {
+         padding-left: 15px;
+         margin-left: 15px;
+         width: 100%;
+         outline: none;
+         border: none;
+         border-left: 1px solid rgba(35, 47, 62, 0.16);
+         background-color: transparent;
+    }
+
+    .form__input::placeholder {
+         font-weight: normal;
+         font-size: 14px;
+         line-height: 16px;
+         color: rgba(35, 47, 62, 0.16);
+    }
+
+    .form__input-btn {
+         position: absolute;
+         top: 16px;
+         right: 16px;
+         padding: 0;
+         width: 16px;
+         height: 16px;
+         border: none;
+         background-color: transparent;
+         background-image: url("../../img/lup-search.svg");
+         background-size: contain;
+         background-repeat: no-repeat;
+    }
+
+    .header__nav {
+         margin-left: 68px;
+         margin-right: 24px;
+    }
+
+    .header__list {
+         display: flex;
+         margin: 0;
+         padding: 0;
+         list-style-type: none;
+    }
+
+    .header__item {
+         position: relative;
+    }
+
+    .header__item:nth-child(1) {
+         margin-right: 36px;
+    }
+
+    .header__item:nth-child(2) {
+         margin-right: 46px;
+    }
+
+    .header__item:nth-child(2)::after {
+         position: absolute;
+         top: -3px;
+         content: "";
+         width: 1px;
+         height: 32px;
+         margin-left: 23px;
+         background-color: rgba(35, 47, 62, 0.16);
+    }
+
+    .header__link {
+         display: inline-block;
+         font-size: 12px;
+         line-height: 14px;
+         color: #000;
+         text-decoration: none;
+    }
+
+    .header__login {
+         padding: 12px 32px;
+         font-size: 12px;
+         line-height: 14px;
+         color: #fff;
+         text-decoration: none;
+         background: #232f3e;
+    }
+}
